@@ -1,0 +1,26 @@
+RewriteEngine On 
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+RewriteBase /
+#адрес поддомена
+RewriteCond %{HTTP_HOST} ^(www\.)?group\.ksenos\.com\.cy$ [NC]
+#папка на которую будет происходить переадресация
+RewriteCond %{REQUEST_URI} !^/group/
+#сама переадресация
+RewriteRule ^(.*)$ group/$1 [L]
+
+#адрес поддомена
+RewriteCond %{HTTP_HOST} ^(www\.)?2\.ksenos\.com\.cy$ [NC]
+#папка на которую будет происходить переадресация
+RewriteCond %{REQUEST_URI} !^/2/
+#сама переадресация
+RewriteRule ^(.*)$ 2/$1 [L]
+
+#адрес поддомена
+RewriteCond %{HTTP_HOST} ^(www\.)?3\.ksenos\.com\.cy$ [NC]
+#папка на которую будет происходить переадресация
+RewriteCond %{REQUEST_URI} !^/3/
+#сама переадресация
+RewriteRule ^(.*)$ 3/$1 [L]

@@ -1,0 +1,16 @@
+.logo-name {
+    font-size: 40px !important;
+}
+.main {
+    padding: 0 !important;
+}
+
+.photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.phone {
+    font-size: 30px !important;
+    color: black !important;
+}

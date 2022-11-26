@@ -1,0 +1,467 @@
+//====================global header
+.layout-header {
+  @include abs-center;
+  //@include abs-center-fixed;
+  bottom: auto;
+  z-index: 50;
+  padding-top: 52px;
+  color: #fff;
+
+  &.active {
+
+  }
+
+  .si-phone {
+    padding-top: 0px;
+  }
+  
+  .logo {
+    position: absolute;
+  }
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 16px;
+  float: left;
+  
+  &:hover {
+    p {
+      color: #f1c776;
+    }
+    
+    span {
+      color: #fff;
+    }
+  }
+
+  img {
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+  }
+
+  p {
+    @include general-transition;
+    display: inline-block;
+    vertical-align: top;
+    font: 500 17px/22px 'GothamPro', sans-serif;
+    margin: 4px 0 0 20px;
+    color: #fff;
+
+    @include small-desktop {
+      font: 500 15px/20px 'GothamPro', sans-serif;
+      margin: 4px 0 0 4px;
+    }
+    
+    @include tablet {
+      display: none;
+    }
+
+    @include mobile {
+      font: 500 20px/1 'GothamPro', sans-serif;
+      margin: 4px 0 0 20px;
+      display: inline-block;
+    }
+
+    span {
+      font: 400 14px/16px 'GothamPro', sans-serif;
+      display: block;
+      margin-top: 8px;
+      color: #fff;
+
+      @include small-desktop {
+        font: 400 13px/15px 'GothamPro', sans-serif;
+      }
+
+      @include mobile {
+        font: 400 17px/19px 'GothamPro', sans-serif;
+      }
+    }
+  }
+}
+
+.si-phone {
+  display: inline-block;
+  float: right;
+  position: relative;
+  bottom: 46px;
+  margin-right: 32px;
+  z-index: 10;
+
+  @include small-desktop {
+    bottom: 38px;
+  }
+
+  @include mobile {
+    bottom: 46px;
+  }
+  
+  &::before {
+    content: "";
+    background: url('../images/phone-icon.png') no-repeat 50% 50%;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    left: -66px;
+    top: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(#fff, .2);
+    
+    @include medium-desktop {
+      width: 34px;
+      height: 34px;
+      left: -52px;
+    }
+  }
+
+  .si-phone-text {
+    margin-bottom: 0px;
+  }
+
+  .phone-link {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font: 500 20px/1 'GothamPro', sans-serif;
+
+    @include mobile {
+      font: 500 22px/1 'GothamPro', sans-serif;
+      margin-bottom: 6px;
+    }
+    
+    &:hover {
+      color: $link-color;
+    }
+    
+    span {
+      font: 300 13px/1 'GothamPro', sans-serif;
+    }
+  }
+
+  .consult-btn {
+    font: 400 14px/1 'GothamPro', sans-serif;
+    text-decoration: underline;
+    margin-top: 0;
+
+    @include mobile {
+      font: 400 18px/1 'GothamPro', sans-serif;
+    }
+  }
+}
+
+.location {
+  font: 400 15px/19px 'GothamPro', sans-serif;
+  position: relative;
+  padding: 12px 0 0 92px;
+
+  @include medium-desktop {
+    padding: 5px 0 0 80px;
+  }
+
+  @include small-desktop {
+    padding: 5px 0 0 92px;
+  }
+
+  @include mobile {
+    padding: 5px 0 0 80px;
+  }
+
+  &::before {
+    content: "";
+    background: url('../images/pin-icon.png') no-repeat 50% 50%;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    border-radius: 50%;
+    border: 1px solid rgba(#fff, .2);
+    
+    @include medium-desktop {
+      width: 34px;
+      height: 34px;
+      left: 32px;
+    }
+  }
+
+  &.l-2 {
+    @include medium-desktop {
+      padding: 5px 0 0 40px;
+
+      &::before {
+        left: -4px;
+      }
+    }
+  }
+}
+
+.language-change {
+  margin: 20px 0 0;
+  padding: 0;
+
+  li {
+    @include general-transition;
+    display: inline-block;
+    list-style-type: none;
+    font: 400 15px/1 'GothamPro', sans-serif;
+    opacity: .2;
+    cursor: pointer;
+    padding-bottom: 12px;
+    margin-right: 45px;
+    border-bottom: 2px solid transparent;
+
+    @include medium-desktop {
+      margin-right: 24px;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+    
+    &.active {
+      opacity: 1;
+      border-bottom: 2px solid #fff;
+    }
+    
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.show-menu {
+  @include general-transition;
+  width: 69px;
+  height: 69px;
+  cursor: pointer !important;
+  position: absolute;
+  top: 2.8%;
+  left: 18px;
+  z-index: 110;
+  background: transparent;
+
+  @include mobile {
+    top: 0.25%;
+    left: 84%;
+  }
+  
+  &.fixed {
+    position: fixed;
+    top: 2.8%;
+    background: rgba(0,0,0,.1);
+
+    .icon-sandwich {
+      background: lighten($accent-color, 10%);
+
+      &::before,
+      &::after {
+        background: lighten($accent-color, 10%);
+      }
+    }
+  }
+
+  &.opened {
+    z-index: 170;
+    background: none;
+    &:hover,
+    &:active {
+
+      .icon-sandwich {
+        background: #fff;
+
+        &::before,
+        &::after {
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  &.dark {
+    .icon-sandwich {
+      background: #313131;
+
+      &::before,
+      &::after {
+        background: #313131;
+      }
+    }
+  }
+
+  &:hover,
+  &:active {
+
+    .icon-sandwich {
+      background: $accent-color;
+
+      &::before,
+      &::after {
+        background: $accent-color;
+      }
+    }
+  }
+}
+
+.icon-sandwich {
+  @include general-transition;
+  @include abs-center;
+  @include transform(rotate(0deg) translateY(0));
+  display: inline-block;
+  background: #fff;
+  width: 48px;
+  height: 2px;
+  border-radius: 3px;
+  position: relative;
+  vertical-align: middle;
+
+  &::before,
+  &::after {
+    @include general-transition;
+    background: #fff;
+    content: "";
+    display: inline-block;
+    width: 48px;
+    height: 2px;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+  }
+
+  &::before {
+    @include transform(rotate(0deg) translateX(0));
+    top: -14px;
+  }
+
+  &::after {
+    @include transform(translateY(0));
+    bottom: -14px;
+  }
+
+  .opened & {
+    @include transform(rotate(45deg));
+    background: #fff;
+
+    &::before {
+      @include transform(rotate(90deg) translateX(10px));
+      background: #fff;
+      top: -10px;
+    }
+
+    &::after {
+      @include transform(translateY(100%));
+      opacity: 0;
+      background: #fff;
+    }
+  }
+}
+
+.nav {
+  @include general-transition;
+  padding: 15px 0 0 160px;
+  display: none;
+
+  @include mobile {
+    padding: 20px 0 0 50px;
+  }
+  
+  &.active {
+    display: block;
+  }
+
+  &.visible {
+    @include abs-center-fixed;
+    background: #C99C67;
+    z-index: 120;
+  }
+
+  .language-change {
+    @include general-transition;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 50px;
+
+    li {
+      color: #fff;
+    }
+  }
+
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1000;
+
+    li {
+      list-style-type: none;
+      margin-bottom: 10px;
+
+      a {
+        font: 500 25px/1 'GothamPro', sans-serif;
+        color: #fff;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+          border-bottom: 1px solid #e2cbb2;
+        }
+      }
+    }
+  }
+  
+  .si-phone.nav-block {
+    float: none;
+    bottom: -55px;
+    left: 0px;
+    
+    &::before {
+      display: none;
+    }
+    
+    a {
+      &:hover {
+        color: darken(#fff, 5%);
+      }
+    }
+    
+    .consult-btn {
+      color: #fff;
+    }
+  }
+}
+
+.select-language {
+  margin: 10px 0 0 0;
+  padding: 0;
+  position: absolute;
+
+  @include medium-desktop {
+    left: 65%;
+    top: -5px;
+  }
+  
+  li {
+    font: 400 15px/1 'GothamPro', sans-serif;
+    list-style-type: none;
+    display: block;
+    
+    &:hover {
+      .language-change {
+        opacity: 1;
+      }
+    }
+
+    &.active {
+      border-bottom: none;
+    }
+  }
+  
+  .language-change {
+    opacity: 0;
+
+    li {
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,515 @@
+//==================== modal overlay
+html {
+
+  &.si-lock {
+    overflow: hidden !important;
+  }
+
+  &.si-lock2 {
+    height: 100% !important;
+    overflow: hidden !important;
+  }
+}
+
+.fancybox-margin {
+  margin-right: 0 !important
+}
+
+.si-overlay {
+  @include abs-center-fixed;
+  display: none;
+  background: transparentize(#000, .2);
+  z-index: 203;
+}
+
+.si-overlay-2 {
+  @extend .si-overlay;
+  z-index: 205;
+}
+
+.si-modals-wrapper {
+  @include abs-center-fixed;
+  display: none;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: 203;
+}
+
+.si-modals-wrapper-2 {
+  @extend .si-modals-wrapper;
+  z-index: 205;
+}
+
+//==================== modal close
+.si-close {
+  @extend .icon;
+  @extend .close !optional;
+  position: absolute !important;
+  top: 30px;
+  right: 30px;
+}
+
+//==================== modal - basic
+.si-modal {
+  @include general-transition;
+  @include transform(scale(0.7));
+  transition-duration: 0.5s;
+  display: none;
+  position: relative;
+  color: $font-color;
+  background: #fff;
+  padding: 80px 80px 70px;
+  width: 900px;
+  margin: 50px auto;
+  
+  @include mobile {
+    width: 87%;
+    padding: 80px 100px 70px;
+  }
+
+  &.plan-modal {
+    width: 100%;
+    margin: 0 auto;
+    padding: 120px 80px 80px;
+  }
+
+  &.si-visible {
+    @include transform(scale(1));
+  }
+
+  .btn-holder {
+    margin-top: 0px;
+  }
+
+  .btn {
+    min-width: 300px;
+
+    &:hover {
+      @include mobile {
+        .top-border, .bottom-border {
+          width: 348px;
+        }
+      }
+    }
+  }
+}
+
+.modal-form-title {
+  margin-bottom: 60px;
+  font: 700 40px/44px 'GothamPro', sans-serif;
+  color: #3a404b;
+}
+
+.modal-time {
+  margin-bottom: 0px;
+  font: 400 18px/24px 'GothamPro', sans-serif;
+}
+
+//==================== modal - text
+.modal-text-block {
+  margin-top: 0px;
+}
+
+//==================== modal - success
+.si-success-modal {
+  @extend .si-modal;
+
+  strong {
+    display: block;
+  }
+}
+
+.si-success-modal-title {
+  @extend .modal-form-title !optional;
+}
+
+.success-time {
+  @extend .modal-time !optional;
+}
+
+//==================== message
+.si-page-message-overlay {
+  @include general-transition;
+  @include abs-center-fixed;
+  display: block;
+  visibility: hidden;
+  z-index: 299;
+  background: transparentize(#000, .2);
+  transition-duration: 0.5s;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.si-page-message {
+  @include general-transition;
+  @include abs-center-fixed;
+  transition-duration: 0.5s;
+  width: 101%;
+  height: 0;
+  color: #fff;
+  background: $accent-color;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -5;
+  box-shadow: 0 0 10px #000;
+
+  &.show {
+    height: 200px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 300;
+  }
+}
+
+.si-page-message-inner {
+  @include general-transition;
+  font-size: 30px;
+  line-height: 36px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  transition-duration: 0.5s;
+  opacity: 0;
+  position: relative;
+
+  &.show {
+    opacity: 1;
+  }
+
+  .centered {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.si-page-message-text {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.item-office {
+  margin-bottom: 80px;
+  padding-right: 66px;
+
+  @include mobile {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font: 400 22px/26px 'GothamPro', sans-serif;
+    color: #3a404b;
+    margin-bottom: 20px;
+
+    @include mobile {
+      height: auto;
+    }
+  }
+
+  .number {
+    font: 700 30px/32px 'GothamPro', sans-serif;
+    color: $accent-color;
+  }
+}
+
+.wrapper-plan-level {
+  border: 10px solid $accent-color;
+  margin-bottom: 60px;
+}
+
+.logo-item-modal {
+  margin-bottom: 70px;
+}
+
+.plan-gallery {
+  @include img-zoom($accent-color, .3, 1);
+  display: block;
+
+  &:hover {
+    span {
+      opacity: 1;
+    }
+
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &::after {
+    @include abs-center;
+    border: 1px solid #fff;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    opacity: 0;
+  }
+
+  span {
+    @include general-transition;
+    font: 700 26px/1 'GothamPro', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: calc(50% - 68px);
+    z-index: 11;
+    opacity: 0;
+    border-bottom: 1px solid #fff;
+  }
+}
+
+.interior-item {
+  @include img-zoom($accent-color, .3, 1);
+  margin-bottom: 25px;
+  display: block;
+  
+  &:hover {
+    span {
+      opacity: 1;
+    }
+    
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &::after {
+    @include abs-center;
+    border: 1px solid #fff;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    opacity: 0;
+  }
+  
+  span {
+    @include general-transition;
+    font: 700 26px/1 'GothamPro', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    position: absolute;
+    top: 44%;
+    left: calc(50% - 68px);
+    z-index: 11;
+    opacity: 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  img {
+    height: 421px;
+  }
+
+  &.eng {
+    span {
+      left: calc(50% - 42px);
+    }
+  }
+
+  &.gre {
+    span {
+      left: calc(50% - 40px);
+    }
+  }
+}
+
+.phone-modal {
+  input {
+    margin-bottom: 72px;
+  }
+  
+  .btn-holder {
+    bottom: 22px;
+  }
+}
+
+.plan-modal {
+  color: #fff;
+  min-height: 100%;
+
+  .logo {
+    margin-left: 0;
+
+    img {
+      bottom: -14px;
+    }
+  }
+
+  .address-loc {
+    font: 400 18px/24px 'GothamPro', sans-serif;
+    position: relative;
+    margin: 50px 0;
+
+    &::after {
+      content: "";
+      width: 90px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      top: 44px;
+      left: 41%;
+    }
+
+    &::before {
+      content: "";
+      width: 90px;
+      height: 1px;
+      background: #fff;
+      position: absolute;
+      bottom: 44px;
+      left: 41%;
+    }
+  }
+
+  #map-modal {
+    height: 330px;
+  }
+  
+  .si-phone {
+    bottom: 0;
+    margin: 40px 0 0;
+    text-align: left;
+    
+    &::before {
+      display: none;
+    }
+
+    a {
+      font: 500 26px/1 'GothamPro', sans-serif;
+    }
+
+    .consult-btn {
+      font: 400 18px/1 'GothamPro', sans-serif;
+      border: 2px solid $accent-color;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 10px 0;
+      text-decoration: none;
+      margin: 10px 0;
+      display: block;
+      
+      &:hover {
+        background: $accent-color;
+        color: #fff;
+      }
+    }
+  }
+  
+  .plan-level-image {
+    background: url('../images/modal-level-image.jpg') no-repeat 50% 50% transparent;
+    background-size: cover;
+    margin: 10px 100px 30px 0;
+    height: 655px;
+    padding-top: 200px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+
+    .number-level {
+      @include general-transition;
+      font: 500 36px/1 'GothamPro', sans-serif;
+      background: #516279;
+      width: 72px;
+      height: 72px;
+      border: 8px solid #fff;
+      transform: rotate(45deg);
+      padding-top: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 4;
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+
+      .wrapper-content {
+        transform: rotate(-45deg);
+      }
+
+      &.left {
+        position: absolute;
+        top: 48%;
+        left: 26%;
+      }
+
+      &.right {
+        position: absolute;
+        top: 48%;
+        right: 20%;
+      }
+    }
+  }
+
+  .download-link-pdf {
+    font: 400 18px/1 'GothamPro', sans-serif;
+    color: #fff;
+    padding: 10px 60px 10px 0;
+    background: url('../images/download-icon.png') no-repeat 96% 50%;
+    text-transform: uppercase;
+    margin-right: 80px;
+    
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  .print-link {
+    @extend .download-link-pdf;
+    padding: 10px 100px 10px 0;
+    background: url('../images/print.png') no-repeat 100% 50%;
+  }
+
+  .share {
+    @extend .download-link-pdf;
+    margin-right: 0;
+    background: url('../images/share.png') no-repeat 100% 50%;
+  }
+  
+  .rose-wind {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    background: url('../images/rose-wind.png') no-repeat 50% 50% transparent;
+    width: 187px;
+    height: 187px;
+
+    &::before {
+      content: "";
+      height: 145px;
+      width: 2px;
+      background: #fff;
+      position: absolute;
+      bottom: 208px;
+      left: 90px;
+    }
+
+    &::after {
+      content: "";
+      height: 145px;
+      width: 2px;
+      background: #fff;
+      position: absolute;
+      top: 225px;
+      left: 90px;
+    }
+  }
+}
+
+.info-modal {
+  .info-text-content {
+    font: 400 17px/22px 'GothamPro', sans-serif;
+    margin-bottom: 30px;
+
+    ul {
+      margin: 12px 0 0 4px;
+      padding: 0;
+
+      li {
+        margin-left: 15px;
+        margin-bottom: 2px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+[
+    {
+        "featureType": "landscape",
+        "stylers": [
+            {
+                "color": "#707070"
+            },
+            {
+                "lightness": 85
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#dfccb8"
+            },
+            {
+                "lightness": -5
+            }
+        ]
+    }
+]

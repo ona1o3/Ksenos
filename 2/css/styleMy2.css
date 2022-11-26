@@ -1,0 +1,139 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+@font-face {
+    font-family: "HelveticaThin";
+    src: url("../fonts/HelveticaThin.woff") format("woff2");
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("../fonts/HelveticaBold.woff") format("woff2");
+}
+
+@font-face {
+    font-family: "HelveticaRoman";
+    src: url("../fonts/HelveticaRoman.woff") format("woff2");
+}
+
+.mainSection {
+    background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header-text {
+    color: white;
+    font-family: "HelveticaRoman";
+    font-size: 36px;
+    margin-right: 15px;
+    letter-spacing: 0.4px;
+}
+#cube {
+    position: absolute;
+    margin-top: 95px;
+}
+.maintext {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 120px;
+    font-family: "HelveticaRoman";
+    color: white;
+    font-size: 28px;
+    z-index: 999;
+}
+
+.texts{
+    font-family: "HelveticaRoman";
+    font-size: 20px;
+}
+
+.myhr {
+    height: 5px !important;
+    color: #F47C20 !important;
+    opacity: 1;
+    width: 50px !important;
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 4px;
+    margin-right: 15px;
+}
+.logomain {
+    width: 200px;
+    height: 50px;
+}
+a {
+    text-decoration: none !important;
+}
+
+.phone {
+    font-size: 20px;
+    font-family: "HelveticaRoman";
+}
+.hrlast {
+    height: 3px !important;
+    color: #F47C20 !important;
+    opacity: 1;
+    width: 50px !important;
+    display: inline-block;
+    margin-right: 15px;
+}
+.lastblock {
+    margin-top: 15px;
+}
+.cube {
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.cube:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+.imgsize {
+    width: 180px;
+  }
+.footer-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.content-block {
+    border: none !important;
+}
+
+form .btn {
+    background: #F47C20 !important;
+}
+
+h2::before {
+    background: #F47C20 !important;
+}
+.contactfooter {
+    font-size: 47px;
+    font-family: 'HelveticaRoman';
+    margin-right: 15px;
+}
+
+/* MEDIA */
+
+ @media (max-width: 800px) { 
+    .maintext {
+        display: none;
+    }
+    .footer-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactfooter {
+        font-size: 46px !important;
+    }  
+} 

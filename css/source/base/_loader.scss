@@ -1,0 +1,45 @@
+.loader {
+  @include general-transition;
+  @include abs-center;
+  position: fixed !important;
+  color: $font-color;
+  background: #fff;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0;
+  transition-duration: .5s;
+}
+
+.a-loader {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  animation: scale-loader 2s linear infinite;
+}
+
+@keyframes scale-loader {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(1.1); }
+  50%  { transform: scale(1.2); }
+  75%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.loader-text {
+  margin-top: 16px;
+  font: 500 18px/1 'GothamPro', sans-serif;
+
+  &::after {
+    content: "...";
+    position: absolute;
+  }
+}
+
+@include keyframes(logo-appear) {
+  0% {
+    opacity: .2;
+  }
+  100% {
+    opacity: 1;
+  }
+}

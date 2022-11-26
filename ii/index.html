@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSENOS 2</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styleMy2.css">
+    <link rel="stylesheet" href="./css/styleKS.css">
+
+</head>
+<body>
+    <section class="mainSection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="header"><span class="header-text">New Building by</span> <img class="imgsize"  src="./img/mainlogo.svg"></h1>
+                    <div class="main-photo d-flex justify-content-center">
+        
+                        <img style="padding-bottom: 20px;" src="./img/mainph.png">
+                        
+                        <div class="maintext">
+                            <span>
+                                glass building <br>
+                                premium location<br>
+                                panoramic view<br>
+                                smart systems<br>
+                                perimeter cctv<br>
+                                rooftop veranda<br>
+                                underground<br>
+                                parking lots<br>
+                            </span>
+                        </div>
+
+                        <div id="cube">
+                            <img class="cube" src="./img/kvadrat.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-form form-detail light" id="form-detail">
+        <div class="container">
+
+            <div class="content-block">
+
+                <div class="row">
+
+                    <div class="col-2-3 col-offset-1-6 col-xs-1 col-xs-offset-0">
+
+                        <h2>
+                            Find out details of buying and renting an office in the Class A <span style="color:#F47C20 !important ;" class="accent-ks">KS</span>enos 2
+                        </h2>
+
+                        <p class="sub-title">
+                            Fill in the form and the our manager will contact you
+                        </p>
+
+                        <form action="./php/telegram.php" method="POST" class="send-form" autocomplete="off">
+                            <div class="row">
+                                <div class="col-1-2 col-xs-1">
+                                    <div class="wrapper-input">
+                                        <input type="text" name="user_name" class="client-name" placeholder="Your name">
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-1-2 col-xs-1">
+                                    <div class="wrapper-input">
+                                        <input type="tel" name="user_phone" class="client-phone" placeholder="Your phone">
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-1-2 col-xs-1">
+                                    <div class="wrapper-input">
+                                        <input type="email" name="user_email" class="client-mail" placeholder="Your e-mail">
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-1-2 col-xs-1">
+                                    <div class="btn-holder">
+                                        <button type="submit" class="btn">
+                                            Send request
+                                            <span class="top-border"></span>
+                                            <span class="bottom-border"></span>
+                                        </button>
+                                        <input type="hidden" class="g-recaptcha-response" id="g-recaptcha-response" name="g-recaptcha-response">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <input type="hidden" name="send_type" class="send-type" value="2">
+                            <input type="hidden" name="send_extra" class="send-extra" value="1">
+                            <input type="hidden" name="key" value="<?php echo $_SESSION['sf_key'] ?>">
+                            
+
+                            <!-- Agreement -->
+                            <div class="form-agree align-left">
+                                <label class="checkbox-label form-agree-check checked">
+                                    <input type="checkbox" checked>
+                                    By clicking the "Send request", I agree and consent to the processing of my personal data in terms of The General Data Protection Regulation (GDPR).
+                                </label>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="ks"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="footer-desc">
+                    <div class="col col-md-3" style="margin-right: 35px;">
+                        <hr class="myhr">
+                        <span class="texts">1500 sq.m. Office Space</span>
+                    </div>
+                    <div class="col col-md-3">
+                        <hr class="myhr">
+                        <span class="texts">3 levels of underground parking spaces</span>
+                    </div>
+
+                </div>
+               
+            </div>
+            <div style="margin-top: 35px;margin-bottom: 10px;" class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h1 class="contactfooter">Contact for more</h1>
+                    <img class="logomain" src="./img/svglogo.svg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h3 style="margin-right: 20px;" class="phone">Telephone: <a href="tel:+35725344555"> +357 25 344 555</a></h3>
+                    <h3 class="phone">Email: <a href="mailto:info@ksenos.com.cy"> info@ksenos.com.cy</a></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center lastblock">
+                    <hr class="hrlast">
+                    <div class="phone">
+                        <span class="footer-span">Webpage will be updated soon.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

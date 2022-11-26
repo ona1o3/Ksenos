@@ -1,0 +1,135 @@
+//==================== section form
+.section-form {
+  background: no-repeat 50% 50% transparent;
+
+  .btn-holder {
+    margin-top: 0px;
+  }
+
+  .btn {
+    width: 300px;
+
+    @include mobile {
+      width: 100%;
+    }
+  }
+}
+
+//========= form agree check
+.form-agree-check {
+  font: 400 14px/17px "GothamPro", sans-serif;
+  margin-top: 30px;
+
+  @include mobile {
+    font: 400 16px/19px "GothamPro", sans-serif;
+  }
+
+  .jq-checkbox {
+    top: 1px;
+  }
+}
+
+//==================== section form-detail
+.form-detail {
+  background: #f5f5f6;
+  padding: 125px 0 168px;
+
+  @include mobile {
+    padding: 14px 0 0px;
+  }
+
+  h2 {
+    margin-bottom: 32px;
+    font: 700 36px/42px 'GothamPro', sans-serif;
+  }
+  
+  .sub-title {
+    font: 500 20px/1 'GothamPro', sans-serif;
+
+    @include mobile {
+      font: 500 22px/1 'GothamPro', sans-serif;
+    }
+  }
+
+  .content-block {
+    border: 10px solid $accent-color;
+    padding: 75px 0 98px;
+    position: relative;
+    
+    @include mobile {
+      border: none;
+    }
+
+    .ks {
+      @extend .si-floating3;
+      position: absolute;
+      left: -260px;
+      bottom: -76px;
+      z-index: -1;
+      background: url('../images/ks.png') no-repeat 50% 50%;
+      width: 347px;
+      height: 221px;
+
+      @include mobile {
+        bottom: 83%;
+      }
+    }
+  }
+
+  .btn-holder {
+    bottom: -28px;
+  }
+  
+  input {
+    margin: 48px 0 25px;
+  }
+}
+
+.wrapper-input {
+  position: relative;
+
+  .phone-form, .user-form, .mail-form {
+    position: absolute;
+    top: 5px;
+    right: 65px;
+
+    @include mobile {
+      right: 10px;
+    }
+  }
+}
+
+.section-info-item-form {
+  @extend .section-info-item;
+  bottom: 282px;
+}
+
+//==================== section form-detail-2
+.form-detail-2 {
+  @extend .form-detail;
+  color: #fff;
+  background: fixed url('../images/form-bg.jpg') no-repeat 50% 50% transparent;
+  background-size: cover;
+
+  &::before {
+    @include abs-center;
+    content: "";
+    background: rgba(58, 106, 147, 0.4);
+  }
+
+  h2 {
+    margin-bottom: 0px;
+  }
+
+  input {
+    border-bottom: 1px solid #fff;
+    color: #fff !important;
+  }
+}
+
+.section-info-item-form-2 {
+  @extend .section-info-item;
+  right: 6px;
+  bottom: 305px;;
+  color: #fff;
+}

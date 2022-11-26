@@ -1,0 +1,268 @@
+//====================buttons
+.btn-holder {
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  @include general-transition;
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  text-decoration: none !important;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+  width: 300px;
+  padding: 26px 0;
+  color: #fff !important;
+  background: #516378;
+  font: 400 17px/1 'GothamPro', sans-serif;
+
+  @include mobile {
+    width: 360px;
+    padding: 32px 0;
+    font: 400 20px/1 'GothamPro', sans-serif;
+  }
+
+  &::before,
+  &::after {
+    @include general-transition;
+    @include abs-center;
+    content: '';
+    z-index: -1;
+  }
+
+  &:hover,
+  &:active {
+    color: #fff !important;
+    background: $accent-color;
+
+    .top-border {
+      width: 288px;
+      height: 57px;
+
+      @include mobile {
+        width: 346px;
+        height: 69px;
+      }
+    }
+
+    .bottom-border {
+      width: 288px;
+      height: 57px;
+
+      @include mobile {
+        width: 346px;
+        height: 69px;
+      }
+    }
+  }
+
+  &:active {
+    @include no-transition;
+    top: 3px;
+
+    &::before,
+    &::after {
+      @include no-transition;
+    }
+  }
+
+  //border btn
+  .top-border {
+    @include general-transition;
+    width: 109px;
+    height: 21px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff
+  }
+
+  .bottom-border {
+    @include general-transition;
+    width: 109px;
+    height: 21px;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff
+  }
+}
+
+.btn-accent {
+  color: $font-color !important;
+  background: $accent-color;
+
+  &:hover,
+  &:active {
+    color: #fff !important;
+    background: $primary-color;
+  }
+}
+
+.btn-bordered {
+  color: $font-color !important;
+  background: transparent;
+  border: 3px solid $accent-color;
+}
+
+//====================button effects
+.btn-ghost {
+  @extend .si-button-pulse;
+}
+
+.btn-curtain {
+
+  &::after {
+    @extend .btn-lift;
+    background: $accent-color;
+    top: auto;
+    bottom: auto;
+  }
+
+  &:hover,
+  &:active {
+    color: #fff !important;
+    border-color: $accent-color;
+
+    &::after {
+      @extend .btn-fall;
+    }
+  }
+}
+
+.btn-border-expand {
+  position: relative;
+
+  &::after {
+    @include abs-center;
+    @extend .border-shrink;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+  }
+
+  &:hover,
+  &:active {
+
+    &::after {
+      @extend .border-expand;
+      width: calc(100% + 12px) !important;
+      height: calc(100% + 12px) !important;
+      left: -6px;
+    }
+  }
+}
+
+.btn-loyalty {
+  width: 330px;
+  background: transparent;
+  border: 1px solid #fff;
+  margin-top: 78px;
+
+  @include mobile {
+    background: #4c6176;
+    margin-top: 40px;
+  }
+
+  &.gre {
+    font: 400 14px/1 'GothamPro', sans-serif;
+  }
+
+  &:hover {
+    background: transparent;
+    border-color: #fff;
+
+    @include mobile {
+      background: #4c6176;
+    }
+
+    .top-border, .bottom-border {
+      width: 315px;
+
+      @include mobile {
+        height: 72px;
+      }
+    }
+  }
+
+  .top-border, .bottom-border {
+    width: 60px;
+  }
+}
+
+.wrapper-btn-footer {
+  @include medium-desktop {
+    right: 50px;
+  }
+  
+  @include small-desktop {
+    display: none;
+  }
+  
+  @include mobile {
+    position: relative;
+    top: 225px;
+    right: 0;
+    display: block;
+  }
+}
+
+.btn-footer {
+  width: 200px;
+  background: transparent;
+  border: 1px solid $accent-color;
+  color: $accent-color !important;
+
+  @include mobile {
+    width: 300px;
+  }
+
+  &:hover {
+    .top-border, .bottom-border {
+      width: 185px;
+      border-color: #fff;
+
+      @include mobile {
+        width: 286px;
+        height: 72px;
+      }
+    }
+  }
+
+  .top-border, .bottom-border {
+    border-color: $accent-color;
+  }
+}
+
+form {
+  .btn {
+    background: $accent-color;
+
+    @include mobile {
+      margin-bottom: 40px;
+    }
+    
+    &:hover {
+      background: lighten($accent-color, 4%);
+
+      @include mobile {
+        .top-border {
+          width: 410px;
+          height: 71px;
+        }
+
+        .bottom-border {
+          width: 410px;
+          height: 71px;
+        }
+      }
+    }
+  }
+}
