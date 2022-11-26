@@ -4608,7 +4608,8 @@ html.si-lock2 {
   @media all and (max-width: 640px) {
     .image-uniqueness.odd {
       position: relative;
-      top: 415px !important; } }
+      top: 473px !important;  
+    } }
   .image-uniqueness.odd a, .image-uniqueness.odd .underline, .image-uniqueness.odd .dashed, .image-uniqueness.odd .dotted {
     left: 85.6%; }
     @media all and (max-width: 640px) {

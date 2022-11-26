@@ -92,7 +92,7 @@ $image = SI_CurrentPageImage();
                 </div> -->
 
                 <div class="col-1-4 col-offset-1-4 col-lg-offset-0">
-                    <ul class="language-change">
+                    <ul class="language-change hidden">
                         <li>
                             <a href="ru">Rus</a>
                         </li>
@@ -226,7 +226,7 @@ $image = SI_CurrentPageImage();
                     <div class="col-5-6 col-offset-1-6 col-xs-1 col-xs-offset-0">
 
                         <h2>
-                            A unique architectural creation perfect for striving businesses<br class="hidden-xs">
+                            A unique architectural creation perfect for striving businesses<br class="visible-xs">
                             <span style='font-size:18px;'>
                             A state-of-the-art Business Center in the heart of Limassol
                             </span>
@@ -364,52 +364,52 @@ $image = SI_CurrentPageImage();
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/commercial-offices.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/commercial-offices.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/real-estate-property-rent-sale.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/real-estate-property-rent-sale.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos-slider-3.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/ksenos-slider-3.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos_building_photos_4.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/ksenos_building_photos_4.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/real-estate-ksenos.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/real-estate-ksenos.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos-projects-building.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/ksenos-projects-building.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/new-construction-ksenos.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/new-construction-ksenos.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/commercial-offices-interior.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/commercial-offices-interior.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos-2-project.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/ksenos-2-project.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos_building_photos_009.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200"  src="images/overview/ksenos_building_photos_009.jpg" alt=" "/>
 				</div>
 
 
@@ -425,52 +425,52 @@ $image = SI_CurrentPageImage();
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/commercial-offices.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/commercial-offices.jpg&amp;w=1100&amp;h=630" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/real-estate-property-rent-sale.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/real-estate-property-rent-sale.jpg&amp;w=1100&amp;h=630" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/ksenos-slider-3.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/ksenos-slider-3.jpg&amp;w=1100&amp;h=630" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/ksenos_building_photos_4.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/ksenos_building_photos_4.jpg&amp;w=1100&amp;h=630" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/real-estate-ksenos.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/real-estate-ksenos.jpg" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/ksenos-projects-building.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/ksenos-projects-building.jpg" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/new-construction-ksenos.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/new-construction-ksenos.jpg" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/commercial-offices-interior.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/commercial-offices-interior.jpg" alt=" "/>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/ksenos-2-project.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img width="1100" height="630" src="images/overview/ksenos-2-project.jpg" alt=" "/>
                     </div>
 					
                     <!-- single slide -->
                     <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/ksenos_building_photos_009.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                        <img  width="1100" height="630"src="images/overview/ksenos_building_photos_009.jpg" alt=" "/>
 					</div>
 					
 
@@ -508,52 +508,52 @@ $image = SI_CurrentPageImage();
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/commercial-offices.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/commercial-offices.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/real-estate-property-rent-sale.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/real-estate-property-rent-sale.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/ksenos-slider-3.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/ksenos-slider-3.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/ksenos_building_photos_4.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/ksenos_building_photos_4.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/real-estate-ksenos.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/real-estate-ksenos.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/commercial-offices-interior.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/commercial-offices-interior.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/new-construction-ksenos.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/new-construction-ksenos.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/ksenos-projects-building.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/ksenos-projects-building.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/ksenos-2-project.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/ksenos-2-project.jpg" alt=" "/>
                 </div>
 
                 <!-- single slide -->
                 <div class="swiper-slide">
-                    <img src="mthumb.php?src=images/overview/ksenos_building_photos_009.jpg&amp;w=1100&amp;h=630" alt=" "/>
+                    <img  width="1100" height="630" src="images/overview/ksenos_building_photos_009.jpg" alt=" "/>
                 </div>
 
             </div>
@@ -598,49 +598,30 @@ $image = SI_CurrentPageImage();
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/Sky-View-Round-About-City-Limassol-Ksenos-Investment.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <img width="1920" height="800" src="images/panorama/Sky-View-Round-About-City-Limassol-Ksenos-Investment.jpg" class="hidden-xs"/>
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/Sky-View-Round-About-City-Limassol-Ksenos-Investment.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
+                        <img width="640" height="460" src="images/panorama/Sky-View-Round-About-City-Limassol-Ksenos-Investment.jpg" class="visible-xs"/>
                         <span>01</span>
                     </div>
                     
                      <!-- single slide -->
                     <div class="swiper-slide">
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/Drone-Top-Round-View-Main-Road-Limassol-Ksenos-Investment.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <img width="1920" height="800" src="images/panorama/Drone-Top-Round-View-Main-Road-Limassol-Ksenos-Investment.jpg" class="hidden-xs" />
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/Drone-Top-Round-View-Main-Road-Limassol-Ksenos-Investment.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
+                        <img width="640" height="460" src="images/panorama/Drone-Top-Round-View-Main-Road-Limassol-Ksenos-Investment.jpg" class="visible-xs" />
                         <span>02</span>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/Panorama-Top-View-City-Limassol-Ksenos-Investment (2).jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <img width="1920" height="800" src="images/panorama/Panorama-Top-View-City-Limassol-Ksenos-Investment (2).jpg" class="hidden-xs"/>
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/Panorama-Top-View-City-Limassol-Ksenos-Investment (2).jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
+                        <img width="640" height="460" src="images/panorama/Panorama-Top-View-City-Limassol-Ksenos-Investment (2).jpg" class="visible-xs"/>
                         <span>03</span>
                     </div>
 
-                   
-
-                    <!-- single slide -->
-                    <!-- <div class="swiper-slide"> -->
-                        <!-- img for pc -->
-                        <!-- <img src="mthumb.php?src=images/panorama/7.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/> -->
-                        <!-- img for mobile -->
-                        <!-- <img src="mthumb.php?src=images/panorama/7.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/> -->
-                        <!-- <span>04</span> -->
-                    <!-- </div -->
-
-                    <!-- single slide -->
-                    <!-- <div class="swiper-slide"> -->
-                        <!-- img for pc -->
-                        <!-- <img src="mthumb.php?src=images/panorama/3.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/> -->
-                        <!-- img for mobile -->
-                        <!-- <img src="mthumb.php?src=images/panorama/3.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/> -->
-                        <!-- <span>05</span> -->
-                    <!-- </div> -->
                 </div>
 
                 <!-- Add Arrows -->
@@ -708,10 +689,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness i-1">
-                        <img src="mthumb.php?src=images/uniqueness/European-Quality-Class-A-Building-1.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/European-Quality-Class-A-Building-1.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/European-Quality-Class-A-Building-1.jpg"/>
                     </div>
 
                 </div>
@@ -720,10 +698,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness odd i-2">
-                        <img src="mthumb.php?src=images/uniqueness/ksenos-building-1.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/ksenos-building-1.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/ksenos-building-1.jpg"/>
                     </div>
 
                 </div>
@@ -763,10 +738,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness">
-                        <img src="mthumb.php?src=images/uniqueness/34.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/34.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/34.jpg"/>
                     </div>
 
                 </div>
@@ -775,10 +747,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness odd i-4">
-                        <img src="mthumb.php?src=images/uniqueness/4.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/4.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/4.jpg"/>
                     </div>
 
                 </div>
@@ -817,10 +786,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness i-5">
-                        <img src="mthumb.php?src=images/uniqueness/5.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/5.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/5.jpg"/>
                     </div>
 
                 </div>
@@ -829,10 +795,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness odd last">
-                        <img src="mthumb.php?src=images/uniqueness/6.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/6.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/6.jpg"/>
                     </div>
 
                 </div>

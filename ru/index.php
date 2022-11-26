@@ -225,8 +225,9 @@ $image = SI_CurrentPageImage();
 
                         <h2>
                         Уникальное архитектурное творение, идеально подходящее для стремящегося бизнеса<br class="hidden-xs">
+                    
                             <span style='font-size:18px;'>
-                            Современный бизнес-центр в самом сердце Лимассола / для стремящегося бизнеса
+                            Современный бизнес-центр в центре Лимассола
                             </span>
                             <span class="big">01</span>
                         </h2>
@@ -253,9 +254,9 @@ $image = SI_CurrentPageImage();
                         <div class="item-advantages cre-animate" data-animation="slide-in-from-left"
                              data-speed="1000" data-delay="300" data-offset="90%" data-easing="easeOut">
 
-                            <div class="title-item">2.2 км до моря</div>
+                            <div class="title-item">Панорамные виды</div>
                             <div class="description-item">
-                                А также вид на море и окрестности Лимассола.
+                            Из этого здания открывается панорамный вид на весь Лимассол.
                             </div>
                         </div>
 
@@ -267,9 +268,9 @@ $image = SI_CurrentPageImage();
                         <div class="item-advantages cre-animate" data-animation="slide-in-from-left"
                              data-speed="1000" data-delay="400" data-offset="90%" data-easing="easeOut">
 
-                            <div class="title-item">200 м. до главной магистрали</div>
+                            <div class="title-item">Круглосуточная безопасность</div>
                             <div class="description-item">
-                                Удобно добираться до любой точки острова.
+                                     Безопасная среда для всех, с круглосуточной охраной вокруг здания.
                             </div>
                         </div>
 
@@ -281,9 +282,9 @@ $image = SI_CurrentPageImage();
                         <div class="item-advantages cre-animate" data-animation="slide-in-from-left"
                              data-speed="1000" data-delay="500" data-offset="90%" data-easing="easeOut">
 
-                            <div class="title-item">Планировка</div>
+                            <div class="title-item">Гибкость</div>
                             <div class="description-item">
-                                Оптимальные планировочные  решения.
+                                    Этот проект ориентирован на гибкость и понимание меняющихся требований покупателей и арендаторов.
                             </div>
                         </div>
 
@@ -312,17 +313,17 @@ $image = SI_CurrentPageImage();
         <div class="container">
 
             <h2>
-                Посмотрите ролик<br class="hidden-xs">
-                о строительстве торгового<br class="hidden-xs">
-                центра <span class="accent-ks">KS</span>enos<br>
+            Подпишитесь на наш YouTube канал, чтобы следить <br class="hidden-xs">
+            за прогрессом <br class="hidden-xs">
+            Бизнес-центра класса А <br class="hidden-xs">
                 <span class="big">02</span>
             </h2>
 
             <div class="btns-wrap">
             	<div class="wrapper-btn align-center">
 
-            		<a href="https://www.youtube.com/watch?v=aEXRScEIgK8&feature=youtu.be" class="review-item"
-            			data-fancybox>
+            		<a target="_blank" href="https://www.youtube.com/@ksenosprojects8454" class="review-item"
+            			>
             			<img src="images/play.png" alt=" ">
             			<span class="shadow-circle"></span>
             		</a>
@@ -363,52 +364,52 @@ $image = SI_CurrentPageImage();
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/commercial-offices.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/commercial-offices.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/real-estate-property-rent-sale.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/real-estate-property-rent-sale.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos-slider-3.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/ksenos-slider-3.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos_building_photos_4.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/ksenos_building_photos_4.jpg" alt=" "/>
+				</div>  
+
+				<!-- single slide -->
+				<div class="swiper-slide">
+					<img width="280" height="280" src="images/overview/real-estate-ksenos.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/real-estate-ksenos.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="280" src="images/overview/commercial-offices-interior.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/commercial-offices-interior.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/new-construction-ksenos.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/new-construction-ksenos.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/commercial-offices-interior.jpg"/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/commercial-offices-interior.jpg&w=1100&h=630 alt=" "/>
+					<img width="280" height="200" src="images/overview/ksenos-2-project.jpg" alt=" "/>
 				</div>
 
 				<!-- single slide -->
 				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos-2-project.jpg&amp;w=280&amp;h=200" alt=" "/>
-				</div>
-
-				<!-- single slide -->
-				<div class="swiper-slide">
-					<img src="mthumb.php?src=images/overview/ksenos_building_photos_009.jpg&amp;w=280&amp;h=200" alt=" "/>
+					<img width="280" height="200" src="images/overview/ksenos_building_photos_009.jpg" alt=" "/>
 				</div>
 
 
@@ -498,81 +499,81 @@ $image = SI_CurrentPageImage();
             обзор комплекса
         </div>
 
-        <!-- slider mobile -->
-        <div class="wrapper-slider-overview visible-xs">
+         <!-- slider mobile -->
+    <div class="wrapper-slider-overview visible-xs">
 
-            <!-- Swiper -->
-            <div class="swiper-container overview-slider-mob">
-                <div class="swiper-wrapper">
+<!-- Swiper -->
+<div class="swiper-container overview-slider-mob">
+    <div class="swiper-wrapper">
 
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/1.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/2.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/3.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/4.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/5.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/6.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/7.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/8.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/9.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <img src="mthumb.php?src=images/overview/10.jpg&amp;w=1100&amp;h=630" alt=" "/>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Add Pagination -->
-            <div class="swiper-pagination overview-pagination-mob"></div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next overview-next-mob"></div>
-            <div class="swiper-button-prev overview-prev-mob"></div>
-
-            <!-- Add Arrows -->
-            <div class="swiper-button-next overview-next-mob arrow">
-                <?php include('svg/arrow-slider.svg'); ?>
-            </div>
-            <div class="swiper-button-prev overview-prev-mob arrow">
-                <?php include('svg/arrow-slider.svg'); ?>
-            </div>
-
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/commercial-offices.jpg&amp;w=1100&amp;h=630" alt=" "/>
         </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/real-estate-property-rent-sale.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/ksenos-slider-3.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/ksenos_building_photos_4.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/real-estate-ksenos.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/commercial-offices-interior.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/new-construction-ksenos.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/ksenos-projects-building.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/ksenos-2-project.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+        <!-- single slide -->
+        <div class="swiper-slide">
+            <img src="mthumb.php?src=images/overview/ksenos_building_photos_009.jpg&amp;w=1100&amp;h=630" alt=" "/>
+        </div>
+
+    </div>
+</div>
+
+<!-- Add Pagination -->
+<div class="swiper-pagination overview-pagination-mob"></div>
+<!-- Add Arrows -->
+<div class="swiper-button-next overview-next-mob"></div>
+<div class="swiper-button-prev overview-prev-mob"></div>
+
+<!-- Add Arrows -->
+<div class="swiper-button-next overview-next-mob arrow">
+    <?php include('svg/arrow-slider.svg'); ?>
+</div>
+<div class="swiper-button-prev overview-prev-mob arrow">
+    <?php include('svg/arrow-slider.svg'); ?>
+</div>
+
+</div>
 
     </section>
 
@@ -597,48 +598,49 @@ $image = SI_CurrentPageImage();
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/1.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <img src="mthumb.php?src=images/panorama/Sky-View-Round-About-City-Limassol-Ksenos-Investment.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/1.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
+                        <img src="mthumb.php?src=images/panorama/Sky-View-Round-About-City-Limassol-Ksenos-Investment.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
                         <span>01</span>
                     </div>
-
-                    <!-- single slide -->
+                    
+                     <!-- single slide -->
                     <div class="swiper-slide">
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/4.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <img src="mthumb.php?src=images/panorama/Drone-Top-Round-View-Main-Road-Limassol-Ksenos-Investment.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/4.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
+                        <img src="mthumb.php?src=images/panorama/Drone-Top-Round-View-Main-Road-Limassol-Ksenos-Investment.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
                         <span>02</span>
                     </div>
 
                     <!-- single slide -->
                     <div class="swiper-slide">
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/6.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <img src="mthumb.php?src=images/panorama/Panorama-Top-View-City-Limassol-Ksenos-Investment (2).jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/6.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
+                        <img src="mthumb.php?src=images/panorama/Panorama-Top-View-City-Limassol-Ksenos-Investment (2).jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
                         <span>03</span>
                     </div>
 
-                    <!-- single slide -->
-                    <div class="swiper-slide">
-                        <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/7.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
-                        <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/7.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
-                        <span>04</span>
-                    </div
+                   
 
                     <!-- single slide -->
-                    <div class="swiper-slide">
+                    <!-- <div class="swiper-slide"> -->
                         <!-- img for pc -->
-                        <img src="mthumb.php?src=images/panorama/3.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/>
+                        <!-- <img src="mthumb.php?src=images/panorama/7.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/> -->
                         <!-- img for mobile -->
-                        <img src="mthumb.php?src=images/panorama/3.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/>
-                        <span>05</span>
-                    </div>
+                        <!-- <img src="mthumb.php?src=images/panorama/7.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/> -->
+                        <!-- <span>04</span> -->
+                    <!-- </div -->
 
+                    <!-- single slide -->
+                    <!-- <div class="swiper-slide"> -->
+                        <!-- img for pc -->
+                        <!-- <img src="mthumb.php?src=images/panorama/3.jpg&amp;w=1920&amp;h=800" class="hidden-xs" alt=" "/> -->
+                        <!-- img for mobile -->
+                        <!-- <img src="mthumb.php?src=images/panorama/3.jpg&amp;w=640&amp;h=460" class="visible-xs" alt=" "/> -->
+                        <!-- <span>05</span> -->
+                    <!-- </div> -->
                 </div>
 
                 <!-- Add Arrows -->
@@ -669,7 +671,7 @@ $image = SI_CurrentPageImage();
         </div>
 
         <div class="section-info-item-panorama">
-            панорама
+            Панорама
         </div>
 
     </section>
@@ -706,10 +708,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness i-1">
-                        <img src="mthumb.php?src=images/uniqueness/1.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/1.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/European-Quality-Class-A-Building-1.jpg"/>
                     </div>
 
                 </div>
@@ -718,10 +717,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness odd i-2">
-                    <img src="mthumb.php?src=images/uniqueness/ksenos-building-1.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/ksenos-building-1.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/ksenos-building-1.jpg"/>
                     </div>
 
                 </div>
@@ -762,10 +758,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness">
-                        <img src="mthumb.php?src=images/uniqueness/3.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/3.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/34.jpg"/>
                     </div>
 
                 </div>
@@ -774,10 +767,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness odd i-4">
-                        <img src="mthumb.php?src=images/uniqueness/4.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/4.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/4.jpg"/>
                     </div>
 
                 </div>
@@ -805,11 +795,11 @@ $image = SI_CurrentPageImage();
                          data-speed="1000" data-delay="200" data-offset="90%" data-easing="easeOut">
 
                         <div class="title-item">
-                            Безопасность
+                            Безопасность 24/7
                             <span>05</span>
                         </div>
                         <div class="description-item">
-                            Центр находится под охраной и видеонаблюдением 24 часа в сутки.
+                        Здание KSenos находится под круглосуточным наблюдением. Наша частная служба безопасности постоянно следит за тем, кто входит и выходит из помещения, с помощью передовых видеозаписей с камер видеонаблюдения.
                         </div>
                     </div>
 
@@ -817,10 +807,7 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness i-5">
-                        <img src="mthumb.php?src=images/uniqueness/5.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/5.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        <img width="555" height="365" src="images/uniqueness/5.jpg"/>
                     </div>
 
                 </div>
@@ -829,10 +816,9 @@ $image = SI_CurrentPageImage();
                 <div class="col-1-2 col-xs-1">
 
                     <div class="image-uniqueness odd last">
-                        <img src="mthumb.php?src=images/uniqueness/6.jpg&amp;w=555&amp;h=365" alt=" "/>
-                        <a href="images/uniqueness/6.jpg" data-fancybox>
-                            <?php include('svg/zoom.svg'); ?>
-                        </a>
+                        
+                        <img width="555" height="365" src="images/uniqueness/6.jpg"/>
+                        
                     </div>
 
                 </div>
@@ -842,12 +828,13 @@ $image = SI_CurrentPageImage();
                          data-speed="1000" data-delay="200" data-offset="90%" data-easing="easeOut">
 
                         <div class="title-item">
-                            Индивидуальный подход
+                            Превосходное расположение в центре Лимассола
                             <span>06</span>
                         </div>
                         <div class="description-item">
-                            Гибкие условия сотрудничества и дополнительного оснащения помещений.
-                        </div>
+                        Расположение рядом с кольцевой развязкой Агиос Афанасиос делает наш бизнес-центр идеальным местом для инвестиций. Расположение в самом сердце Лимассола означает, что у вас есть легкий доступ к центру города, набережной, супермаркетам и многому другому.
+                         
+                    </div>
                     </div>
 
                 </div>
@@ -957,15 +944,15 @@ $image = SI_CurrentPageImage();
 
         <!-- bg section -->
         <div id='image-layout-bg' class="image-layout-bg">
-            <img width=1920 height=850 src="../images/layout-bg-1.webp" class="hidden-xs" alt=" "/>
-            <img width=640  height=460 src="../images/layout-bg-1.webp" class="visible-xs" alt=" "/>
+            <img width=1920 height=850 src="images/layout-bg-1.webp" class="hidden-xs" alt=" "/>
+            <img width=640  height=460 src="images/layout-bg-1.webp" class="visible-xs" alt=" "/>
         </div>
 
         <div class="item-level-block">
 
             <!-- single item -->
-            <div class="item-level i-1 ">
-                <span class="number-level">Ground floor</span>
+            <div class="item-level i-1 gre sale open-plan-modal" data-id="8">
+                <span class="number-level level-gf">GF</span>
             </div>
 
             <!-- single item -->
@@ -1014,19 +1001,35 @@ $image = SI_CurrentPageImage();
         <div class="container">
 
         <div class="wrapper-btn align-center" data-id="1">
-            <a href="images/plan/3.jpg" data-fancybox="layout-plan" class="btn">
-                Смотреть планировки
-                <span class="top-border"></span>
-                <span class="bottom-border"></span>
-            </a>
+        <a href="images/interior/5-Floor-Interior-Office-Industrial-Open-Plan.jpg"
+                        style='background-color:#0066cce3;'
+                        data-fancybox="layout-plan" class="btn">
+                            Смотреть интерьер
+                            <span class="top-border"></span>
+                            <span class="bottom-border"></span>
+                        </a>
         </div>
 
-        <a href="images/plan/4.jpg" data-fancybox="layout-plan"></a>
-        <a href="images/plan/5.jpg" data-fancybox="layout-plan"></a>
-        <a href="images/plan/6.jpg" data-fancybox="layout-plan"></a>
-        <a href="images/plan/7.jpg" data-fancybox="layout-plan"></a>
-        <a href="images/plan/1.jpg" data-fancybox="layout-plan"></a>
-        <a href="images/plan/2.jpg" data-fancybox="layout-plan"></a>
+        <a href="images/interior/1st-Ready-Interior-Modern-Office.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/1st-Ready-Interior-Modern-Office-Architecture.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/7-luxury-Top-Floor-Office-Limassol-View.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Business-Centre-Interior-Office-Industrial-Open-Plan.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Business-Centre-Office-Industrial-Open-Plan-Investment.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Business-Office-Open-Plan-Construction.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Construction-Commercial-Limassol.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/First-Floor-Interior-Modern-Office-Architecture.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/First-Interior-Modern-Office-Architecture-Investment.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Limassol-sale-rent-investment-office-space-industrial-style.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Office-Commercial-Ksenos-Cyprus.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Office-Commercial-Ready-Interior-Modern.JPG" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Office-Commercial-Space-Rent.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Office-Commercial-Space-sale.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Penthouse-Construction-City-Sea-View.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Penthouse-Top-Floor-Limassol-View.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Real-Estate-Commercial-Investment.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Sale-New-Interior-Modern-Office-Architecture-Investment.JPG" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Top-Floor-Building-Ksenos.jpg" data-fancybox="layout-plan"></a>
+                    <a href="images/interior/Top-Floor-Office-Limassol-Rent-Sale.jpg" data-fancybox="layout-plan"></a>
         
             <div class="content-block">
 
@@ -1529,39 +1532,27 @@ $image = SI_CurrentPageImage();
             </h2>
 
             <!-- slider PC -->
-            <div class="wrapper-partner-slider hidden-xs">
+        <div class="wrapper-partner-slider hidden-xs">
+            <h3 style="font-size:28px;display:flex;letter-spacing: 0.5px;;justify-content:center;margin-bottom:20px;"
+            ><span class='accent-ks'>KS</span>enos Партнеры</h3>
+            <!-- Swiper -->
+            <div class="swiper-container partner-slider">
+                <div class="swiper-wrapper">
 
-                <!-- Swiper -->
-                <div class="swiper-container partner-slider">
-                    <div class="swiper-wrapper">
-
-					<div class="swiper-slide">
+                  <div class="swiper-slide">
 
                       <div class="wrapper-item-logo">
 
-                      	<!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <a href="https://ksdesign.com.cy/" target="_blank">
+                                      <a href="https://group.ksenos.com.cy/" target="_blank">
                                           <img src="images/logo/new-prt-8.png" alt=" "/>
                                       </a>
                                   </div>
                               </div>
                           </div>
 
-                          <!-- single item -->
-                          <div class="item-logo">
-                              <div class="pseudo-table">
-                                  <div class="pseudo-table-cell">
-                                      <a href="http://www.trigonarchitect.com/" target="_blank">
-                                          <img src="images/logo/1.png" alt=" "/>
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
@@ -1572,33 +1563,32 @@ $image = SI_CurrentPageImage();
                               </div>
                           </div>
 
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-5.png" alt=" "/>
+                                        <a href="https://www.togas.com/en " target="_blank">
+                                            <img src="images/logo/new-prt-5.png" alt=" "/>
+                                        </a>
                                   </div>
                               </div>
                           </div>
 
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <a href="https://www.momenti-casa.it/" target="_blank">
-                                      	<img src="images/logo/new-prt-6.png" alt=" "/>
+                                      <a href="https://ksdesign.com.cy/" target="_blank">
+                                          <img style="max-width: 90%;" src="images/logo/ks-design.png" alt=" "/>
                                       </a>
                                   </div>
                               </div>
-						  </div>
-						  
-							<!-- single item -->
-							<div class="item-logo">
+                          </div>
+
+                          <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <a href="https://kalfire.com/en" target="_blank">
-									  	<img src="images/logo/new-prt-4.png" alt=" "/>
-									  </a>
+                                      <a href"#" target="_blank">
+                                          <img src="images/logo/services.png" alt=" "/>
+                                      </a>
                                   </div>
                               </div>
                           </div>
@@ -1607,28 +1597,98 @@ $image = SI_CurrentPageImage();
 
                   </div>
 
+                </div>
+            </div>
+
+        </div>
+
+        <div style='margin-top:50px;' class="wrapper-partner-slider hidden-xs">
+            <h3 style="font-size:28px;letter-spacing: 0.5px;;display:flex;justify-content:center;margin-bottom:20px;"
+            >Поставщики и бренды</h3>
+            <!-- Swiper -->
+            <div class="swiper-container partner-slider">
+                <div class="swiper-wrapper">
+
                   <div class="swiper-slide">
 
                       <div class="wrapper-item-logo">
 
-                          <!-- single item -->
-                          <div class="item-logo">
+                        <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-									<a href="https://www.ciprianihomood.com/" target="_blank">
-										<img src="images/logo/new-prt-2.png" alt=" "/>
-									</a> 
+                                      <a href="https://www.ciacexport.it/" target="_blank">
+                                          <img src="images/logo/ciac.png" alt=" "/>
+                                      </a>
                                   </div>
                               </div>
-                          </div>
+                        </div>
 
-                          <!-- single item -->
+                        <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://www.dvo-studio.com/" target="_blank">
+                                          <img src="images/logo/dvo.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                        </div>
+
+                        <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://www.lago.it/en/" target="_blank">
+                                      	<img src="images/logo/lago.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+						</div>
+
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
                                       <a href="https://www.malerbafurniture.com/" target="_blank">
-									  	<img src="images/logo/new-prt-3.png" alt=" "/>
-									  </a>
+                                          <img src="images/logo/malerba.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://www.cipriani.com/us/home-page" target="_blank">
+                                          <img src="images/logo/cipriani.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://kalfire.com/en" target="_blank">
+                                          <img src="images/logo/kalfire.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://momenti-casa.it/" target="_blank">
+                                          <img src="images/logo/momenti.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://momenti-casa.it/" target="_blank">
+                                          <img src="images/logo/leicht.png" alt=" "/>
+                                      </a>
                                   </div>
                               </div>
                           </div>
@@ -1637,58 +1697,37 @@ $image = SI_CurrentPageImage();
 
                   </div>
 
-                    </div>
                 </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination partner-pagination"></div>
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next partner-next arrow">
-                    <?php include('svg/arrow-slider.svg'); ?>
-                </div>
-                <div class="swiper-button-prev partner-prev arrow">
-                    <?php include('svg/arrow-slider.svg'); ?>
-                </div>
-
             </div>
+
+            
 
         </div>
 
-        <!-- slider mobile -->
-        <div class="wrapper-partner-slider visible-xs">
+        
 
-            <!-- Swiper -->
-            <div class="swiper-container partner-slider-mob">
-                <div class="swiper-wrapper">
+    </div>
 
-                                      <div class="swiper-slide">
+    <!-- slider mobile -->
+    <div class="wrapper-partner-slider visible-xs">
+    
+        <!-- Swiper -->
+        <div class="swiper-container partner-slider">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
 
                       <div class="wrapper-item-logo">
 
-                        <!-- single item -->
-                          <div class="item-logo">
+                      <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <a href="https://ksdesign.com.cy/" target="_blank">
+                                      <a href="https://group.ksenos.com.cy/" target="_blank">
                                           <img src="images/logo/new-prt-8.png" alt=" "/>
                                       </a>
                                   </div>
                               </div>
                           </div>
 
-                          <!-- single item -->
-                          <div class="item-logo">
-                              <div class="pseudo-table">
-                                  <div class="pseudo-table-cell">
-                                      <a href="http://www.trigonarchitect.com/" target="_blank">
-                                          <img src="images/logo/1.png" alt=" "/>
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
@@ -1699,30 +1738,31 @@ $image = SI_CurrentPageImage();
                               </div>
                           </div>
 
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-5.png" alt=" "/>
+                                        <a href="https://www.togas.com/en " target="_blank">
+                                            <img src="images/logo/new-prt-5.png" alt=" "/>
+                                        </a>
                                   </div>
                               </div>
                           </div>
 
-                                                    <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-7.png" alt=" "/>
+                                      <a href="https://ksdesign.com.cy/" target="_blank">
+                                          <img style="max-width: 90%;" src="images/logo/ks-design.png" alt=" "/>
+                                      </a>
                                   </div>
                               </div>
                           </div>
 
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <a href="https://www.momenti-casa.it/" target="_blank">
-                                        <img src="images/logo/new-prt-6.png" alt=" "/>
+                                      <a href"#" target="_blank">
+                                          <img src="images/logo/services.png" alt=" "/>
                                       </a>
                                   </div>
                               </div>
@@ -1736,38 +1776,52 @@ $image = SI_CurrentPageImage();
 
                       <div class="wrapper-item-logo">
 
-                          <!-- single item -->
+                      <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://www.ciacexport.it/" target="_blank">
+                                          <img src="images/logo/ciac.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                        </div>
+
+                        <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://www.dvo-studio.com/" target="_blank">
+                                          <img src="images/logo/dvo.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                        </div>
+
+                        <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://www.lago.it/en/" target="_blank">
+                                      	<img src="images/logo/lago.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+						</div>
+
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-1.png" alt=" "/>
+                                      <a href="https://www.malerbafurniture.com/" target="_blank">
+                                          <img src="images/logo/malerba.png" alt=" "/>
+                                      </a>
                                   </div>
                               </div>
                           </div>
 
-                          <!-- single item -->
                           <div class="item-logo">
                               <div class="pseudo-table">
                                   <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-2.png" alt=" "/>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <!-- single item -->
-                          <div class="item-logo">
-                              <div class="pseudo-table">
-                                  <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-3.png" alt=" "/>
-                                  </div>
-                              </div>
-                          </div>
-
-                          <!-- single item -->
-                          <div class="item-logo">
-                              <div class="pseudo-table">
-                                  <div class="pseudo-table-cell">
-                                      <img src="images/logo/new-prt-4.png" alt=" "/>
+                                      <a href="https://www.cipriani.com/us/home-page" target="_blank">
+                                          <img src="images/logo/cipriani.png" alt=" "/>
+                                      </a>
                                   </div>
                               </div>
                           </div>
@@ -1776,25 +1830,63 @@ $image = SI_CurrentPageImage();
 
                   </div>
 
-                </div>
-            </div>
+                  <div class="swiper-slide">
 
-            <!-- Add Pagination -->
-            <div class="swiper-pagination partner-pagination-mob"></div>
+                      <div class="wrapper-item-logo">
 
-            <!-- Add Arrows -->
-            <div class="swiper-button-next partner-next-mob arrow">
-                <?php include('svg/arrow-slider.svg'); ?>
-            </div>
-            <div class="swiper-button-prev partner-prev-mob arrow">
-                <?php include('svg/arrow-slider.svg'); ?>
-            </div>
+                      <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://kalfire.com/en" target="_blank">
+                                          <img src="images/logo/kalfire.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
 
+                          <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://momenti-casa.it/" target="_blank">
+                                          <img src="images/logo/momenti.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="item-logo">
+                              <div class="pseudo-table">
+                                  <div class="pseudo-table-cell">
+                                      <a href="https://momenti-casa.it/" target="_blank">
+                                          <img src="images/logo/leicht.png" alt=" "/>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+
+
+                      </div>
+
+                  </div>
+            </div>
         </div>
 
-        <div class="section-info-item-company">
-            компании
+        <!-- Add Pagination -->
+        <div class="swiper-pagination partner-pagination"></div>
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next partner-next arrow">
+            <?php include('svg/arrow-slider.svg'); ?>
         </div>
+        <div class="swiper-button-prev partner-prev arrow">
+            <?php include('svg/arrow-slider.svg'); ?>
+        </div>
+
+    </div>
+
+    <div class="section-info-item-company">
+        Компании
+    </div>
 
     </section>
 
@@ -2027,11 +2119,11 @@ $image = SI_CurrentPageImage();
         <div class="modal-container align-center">
 
             <div class="si-success-modal-title">
-                Спасибо!
+                Thank you!
             </div>
 
             <div class="success-time">
-                Наш менеджер свяжется с вами в течение 15 минут
+                Our manager will contact you within 15 minutes
             </div>
 
         </div>
@@ -2046,7 +2138,7 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Закажите консультацию
+                Заказать консультацию
             </div>
 
             <form method="post" class="send-form" autocomplete="off">
@@ -2076,11 +2168,11 @@ $image = SI_CurrentPageImage();
                     <div class="col-1-2 col-xs-1">
                         <div class="btn-holder">
                             <button type="submit" onclick="yaCounter48997670.reachGoal('phone');" class="btn">
-                                Позвоните мне
+                                Позвонить мне
                                 <span class="top-border"></span>
                                 <span class="bottom-border"></span>
                             </button>
-                            <!--<div class="g-recaptcha" id="g-recaptcha"></div>-->
+                            <input type="hidden" class="g-recaptcha-response" id="g-recaptcha-response" name="g-recaptcha-response">
                         </div>
                     </div>
                 </div>
@@ -2094,11 +2186,7 @@ $image = SI_CurrentPageImage();
                 <div class="form-agree align-left">
                     <label class="checkbox-label form-agree-check checked">
                         <input type="checkbox" checked>
-                        Нажимая кнопку "Позвоните мне", я&nbsp;даю своё согласие на&nbsp;обработку
-                        моих персональных данных в&nbsp;соответствии с&nbsp;Федеральным законом
-                        от&nbsp;27.07.2006&nbsp;года №152&#8209;ФЗ "О&nbsp;персональных данных",
-                        на&nbsp;условиях и&nbsp;для&nbsp;целей, определённых
-                        в&nbsp;Согласии на&nbsp;обработку персональных данных.
+                        By clicking the "Call me", I agree and consent to the processing of my personal data in terms of The General Data Protection Regulation (GDPR).
                     </label>
                 </div>
             </form>
@@ -2115,7 +2203,75 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Офисные помещения этажа 1
+            Первый этаж - Интерьер
+            </div>
+
+            <div class="row row-3">
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/1st-Ready-Interior-Modern-Office.jpg" data-fancybox="interior">
+                        <img src="images/interior/1st-Ready-Interior-Modern-Office.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/1st-Ready-Interior-Modern-Office-Architecture.jpg" data-fancybox="interior">
+                        <img width=436 src="images/interior/1st-Ready-Interior-Modern-Office-Architecture.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/First-Floor-Interior-Modern-Office-Architecture.jpg" data-fancybox="interior">
+                        <img width=436 src="images/interior/First-Floor-Interior-Modern-Office-Architecture.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/First-Interior-Modern-Office-Architecture-Investment.jpg" data-fancybox="interior">
+                        <img width=436 src="images/interior/First-Interior-Modern-Office-Architecture-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Ready-Interior-Modern.JPG" data-fancybox="interior">
+                        <img width=436 src="images/interior/Office-Commercial-Ready-Interior-Modern.JPG" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Sale-New-Interior-Modern-Office-Architecture-Investment.JPG" data-fancybox="interior">
+                        <img width=436 src="images/interior/Sale-New-Interior-Modern-Office-Architecture-Investment.JPG" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="modal-form-title">
+            
             </div>
 
             <div class="row row-xs-2">
@@ -2124,9 +2280,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Общая площадь этажа
+                            Общая площадь
                         </div>
-                        <div class="number">395 м<sup>2</sup></div>
+                        <div class="number">395 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2136,9 +2292,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Офисные помещения
+							Офисные помещения
                         </div>
-                        <div class="number">348 м<sup>2</sup></div>
+                        <div class="number">348 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2148,24 +2304,24 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Площадь общего пользования/Лобби
+                        Места общего пользования / Лобби
                         </div>
-                        <div class="number">47 м<sup>2</sup></div>
+                        <div class="number">47 m<sup>2</sup></div>
                     </div>
 
 				</div>
 				
 				<!-- item -->
-                <div class="col-1-4 col-xs-1-2">
+				<div class="col-1-4 col-xs-1-2">
 
-                    <div class="item-office">
-                        <div class="title">
-                            Парковочные места
-                        </div>
-                        <div class="number">To be scheduled</div>
-                    </div>
+					<div class="item-office">
+						<div class="title">
+							Парковочные места
+						</div>
+						<div class="number">Запланированыd</div>
+					</div>
 
-                </div>
+				</div>
             </div>
 
             <div class="wrapper-plan-level">
@@ -2175,8 +2331,21 @@ $image = SI_CurrentPageImage();
                 </a>
             </div>
 
+            
+
+        </div>
+    </div>
+
+    <!--============================================== plan modal GF-->
+    <div class="si-modal plan-modal plan-modal-8">
+        <a href="#" class="si-close">
+            <img src="images/close.png" alt=" "/>
+        </a>
+
+        <div class="modal-container">
+
             <div class="modal-form-title">
-                Интерьеры
+            Цокольный этаж - Интерьер
             </div>
 
             <div class="row row-3">
@@ -2184,8 +2353,8 @@ $image = SI_CurrentPageImage();
                 <!-- single item -->
                 <div class="col-1-3 col-xs-1">
 
-                    <a class="interior-item" href="images/interior/1.jpg" data-fancybox="interior">
-                        <img src="images/interior/1.jpg" alt=" "/>
+                    <a class="interior-item eng" href="images/interior/togas_1.png" data-fancybox="interior">
+                        <img src="images/interior/togas_1.png" alt=" "/>
                         <span>Смотреть</span>
                     </a>
 
@@ -2194,8 +2363,8 @@ $image = SI_CurrentPageImage();
                 <!-- single item -->
                 <div class="col-1-3 col-xs-1">
 
-                    <a class="interior-item" href="images/interior/2.jpg" data-fancybox="interior">
-                        <img src="images/interior/2.jpg" alt=" "/>
+                    <a class="interior-item eng" href="images/interior/togas_2.png" data-fancybox="interior">
+                        <img width=436 src="images/interior/togas_2.png" alt=" "/>
                         <span>Смотреть</span>
                     </a>
 
@@ -2204,8 +2373,8 @@ $image = SI_CurrentPageImage();
                 <!-- single item -->
                 <div class="col-1-3 col-xs-1">
 
-                    <a class="interior-item" href="images/interior/3.jpg" data-fancybox="interior">
-                        <img src="images/interior/3.jpg" alt=" "/>
+                    <a class="interior-item eng" href="images/interior/togas_3.png" data-fancybox="interior">
+                        <img width=436 src="images/interior/togas_3.png" alt=" "/>
                         <span>Смотреть</span>
                     </a>
 
@@ -2214,8 +2383,8 @@ $image = SI_CurrentPageImage();
                 <!-- single item -->
                 <div class="col-1-3 col-xs-1">
 
-                    <a class="interior-item" href="images/interior/4.jpg" data-fancybox="interior">
-                        <img src="images/interior/4.jpg" alt=" "/>
+                    <a class="interior-item eng" href="images/interior/togas_4.png" data-fancybox="interior">
+                        <img width=436 src="images/interior/togas_4.png" alt=" "/>
                         <span>Смотреть</span>
                     </a>
 
@@ -2224,8 +2393,8 @@ $image = SI_CurrentPageImage();
                 <!-- single item -->
                 <div class="col-1-3 col-xs-1">
 
-                    <a class="interior-item" href="images/interior/5.jpg" data-fancybox="interior">
-                        <img src="images/interior/5.jpg" alt=" "/>
+                    <a class="interior-item eng" href="images/interior/togas_5.png" data-fancybox="interior">
+                        <img width=436 src="images/interior/togas_5.png" alt=" "/>
                         <span>Смотреть</span>
                     </a>
 
@@ -2234,14 +2403,72 @@ $image = SI_CurrentPageImage();
                 <!-- single item -->
                 <div class="col-1-3 col-xs-1">
 
-                    <a class="interior-item" href="images/interior/6.jpg" data-fancybox="interior">
-                        <img src="images/interior/6.jpg" alt=" "/>
+                    <a class="interior-item eng" href="images/interior/togas_6.png" data-fancybox="interior">
+                        <img width=436 src="images/interior/togas_6.png" alt=" "/>
                         <span>Смотреть</span>
                     </a>
 
                 </div>
 
             </div>
+
+            <div class="modal-form-title">
+            
+            </div>
+
+            <div class="row row-xs-2">
+                <!-- item -->
+                <div class="col-1-4 col-xs-1-2">
+
+                    <div class="item-office">
+                        <div class="title">
+                        Общая площадь
+                        </div>
+                        <div class="number">380 m<sup>2</sup></div>
+                    </div>
+
+                </div>
+
+                <!-- item -->
+                <div class="col-1-4 col-xs-1-2">
+
+                    <div class="item-office">
+                        <div class="title">
+                        Офисные помещения
+                        </div>
+                        <div class="number">350 m<sup>2</sup></div>
+                    </div>
+
+                </div>
+
+                <!-- item -->
+                <div class="col-1-4 col-xs-1-2">
+
+                    <div class="item-office">
+                        <div class="title">
+                        Места общего пользования / Лобби
+                        </div>
+                        <div class="number">47 m<sup>2</sup></div>
+                    </div>
+
+				</div>
+
+				<!-- item -->
+				<div class="col-1-4 col-xs-1-2">
+
+					<div class="item-office">
+						<div class="title">
+                        Парковочные места
+						</div>
+						<div class="number">Запланированы</div>
+					</div>
+
+				</div>
+            </div>
+
+
+
+            
 
         </div>
     </div>
@@ -2255,7 +2482,74 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Офисные помещения этажа 2
+            Второй этаж - Интерьер
+            </div>
+
+            <div class="row row-3">
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Construction-Commercial-Limassol.jpg" data-fancybox="interior2">
+                        <img src="images/interior/Construction-Commercial-Limassol.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial.jpg" data-fancybox="interior2">
+                        <img src="images/interior/Office-Commercial.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Ksenos-Cyprus.jpg" data-fancybox="interior2">
+                        <img src="images/interior/Office-Commercial-Ksenos-Cyprus.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Space-Rent.jpg" data-fancybox="interior2">
+                        <img src="images/interior/Office-Commercial-Space-Rent.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Space-sale.jpg" data-fancybox="interior2">
+                        <img src="images/interior/Office-Commercial-Space-sale.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Real-Estate-Commercial-Investment.jpg" data-fancybox="interior2">
+                        <img src="images/interior/Real-Estate-Commercial-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="modal-form-title">
+                
             </div>
 
             <div class="row row-xs-2">
@@ -2264,9 +2558,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Общая площадь этажа
+                        Общая площадь
                         </div>
-                        <div class="number">689 м<sup>2</sup></div>
+                        <div class="number">689 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2276,7 +2570,7 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Количество офисных помещений
+                        Количество офисных помещений
                         </div>
                         <div class="number">10</div>
                     </div>
@@ -2288,9 +2582,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Офис 1
+                            Офисная площадь
                         </div>
-                        <div class="number">280 м<sup>2</sup></div>
+                        <div class="number">280 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2300,9 +2594,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Инженерная площадь/Серверная
+                        Инженерная зона / Серверная
                         </div>
-                        <div class="number">300 м<sup>2</sup></div>
+                        <div class="number">300 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2314,7 +2608,7 @@ $image = SI_CurrentPageImage();
                         <div class="title">
                             Лобби
                         </div>
-                        <div class="number">52 м<sup>2</sup></div>
+                        <div class="number">52 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2326,87 +2620,18 @@ $image = SI_CurrentPageImage();
                         <div class="title">
                             Крытые веранды
                         </div>
-                        <div class="number">57 м<sup>2</sup></div>
+                        <div class="number">57 m<sup>2</sup></div>
                     </div>
 
                 </div>
             </div>
 
             <div class="wrapper-plan-level">
-                <a href="images/plan/4.jpg" class="plan-gallery" data-fancybox="plan-gallery">
-                    <img src="images/plan/4.jpg" alt=" "/>
+                <a href="images/plan/2.jpg" class="plan-gallery" data-fancybox="plan-gallery">
+                    <img src="images/plan/2.jpg" alt=" "/>
                     <span>Смотреть</span>
                 </a>
             </div>
-
-            <div class="modal-form-title">
-                Интерьеры
-            </div>
-
-            <div class="row row-3">
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/1.jpg" data-fancybox="interior2">
-                        <img src="images/interior/1.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/2.jpg" data-fancybox="interior2">
-                        <img src="images/interior/2.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/3.jpg" data-fancybox="interior2">
-                        <img src="images/interior/3.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/4.jpg" data-fancybox="interior2">
-                        <img src="images/interior/4.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/5.jpg" data-fancybox="interior2">
-                        <img src="images/interior/5.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/6.jpg" data-fancybox="interior2">
-                        <img src="images/interior/6.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-            </div>
-
         </div>
     </div>
 
@@ -2419,7 +2644,72 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Офисные помещения этажа 3
+            Третий этаж - Интерьер
+            </div>
+
+            <div class="row row-3">
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Construction-Commercial-Limassol.jpg" data-fancybox="interior3">
+                        <img src="images/interior/Construction-Commercial-Limassol.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial.jpg" data-fancybox="interior3">
+                        <img src="images/interior/Office-Commercial.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Ksenos-Cyprus.jpg" data-fancybox="interior3">
+                        <img src="images/interior/Office-Commercial-Ksenos-Cyprus.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Space-Rent.jpg" data-fancybox="interior3">
+                        <img src="images/interior/Office-Commercial-Space-Rent.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Commercial-Space-sale.jpg" data-fancybox="interior3">
+                        <img src="images/interior/Office-Commercial-Space-sale.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Real-Estate-Commercial-Investment.jpg" data-fancybox="interior3">
+                        <img src="images/interior/Real-Estate-Commercial-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+                <div class="modal-form-title">
+                
             </div>
 
             <div class="row row-xs-2">
@@ -2428,9 +2718,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Общая площадь этажа
+                        Общая площадь
                         </div>
-                        <div class="number">691 м<sup>2</sup></div>
+                        <div class="number">582 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2440,7 +2730,7 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Количество офисных помещений
+                        Количество офисных помещений
                         </div>
                         <div class="number">10</div>
                     </div>
@@ -2452,9 +2742,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Офис 2
+                            Офисная площадь
                         </div>
-                        <div class="number">582 м<sup>2</sup></div>
+                        <div class="number">582 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2464,9 +2754,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Площади общего пользования/Лобби
+                        Места общего пользования / Лобби
                         </div>
-                        <div class="number">52 м<sup>2</sup></div>
+                        <div class="number">52 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2476,88 +2766,20 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Крытые веранды
+                        Крытые веранды
                         </div>
-                        <div class="number">57 м<sup>2</sup></div>
+                        <div class="number">57 m<sup>2</sup></div>
                     </div>
 
                 </div>
-
             </div>
 
             <div class="wrapper-plan-level">
-                <a href="images/plan/5.jpg" class="plan-gallery" data-fancybox="plan-gallery">
-                    <img src="images/plan/5.jpg" alt=" "/>
+                <a href="images/plan/3.jpg" class="plan-gallery" data-fancybox="plan-gallery">
+                    <img src="images/plan/3.jpg" alt=" "/>
                     <span>Смотреть</span>
                 </a>
             </div>
-
-            <div class="modal-form-title">
-                Интерьеры
-            </div>
-
-            <div class="row row-3">
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/1.jpg" data-fancybox="interior3">
-                        <img src="images/interior/1.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/2.jpg" data-fancybox="interior3">
-                        <img src="images/interior/2.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/3.jpg" data-fancybox="interior3">
-                        <img src="images/interior/3.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/4.jpg" data-fancybox="interior3">
-                        <img src="images/interior/4.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/5.jpg" data-fancybox="interior3">
-                        <img src="images/interior/5.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/6.jpg" data-fancybox="interior3">
-                        <img src="images/interior/6.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
             </div>
 
         </div>
@@ -2572,7 +2794,46 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Офисные помещения этажа 4
+            Четвертый этаж - Интерьер
+            </div>
+
+            <div class="row row-3">
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/4-Floor-KSenos-Project-Building-Investment.jpg" data-fancybox="interior4">
+                        <img src="images/interior/4-Floor-KSenos-Project-Building-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/4-Floor-Offices-KSenos-Project-Building-Investment.jpg" data-fancybox="interior4">
+                        <img src="images/interior/4-Floor-Offices-KSenos-Project-Building-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Office-Kitchen-View-Limassol-Ksenos-Investment.jpg" data-fancybox="interior4">
+                        <img src="images/interior/Office-Kitchen-View-Limassol-Ksenos-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                
+
+            </div>
+            <div class="modal-form-title">
+                
             </div>
 
             <div class="row row-xs-2">
@@ -2581,9 +2842,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Общая площадь этажа
+                        Общая площадь
                         </div>
-                        <div class="number">692 м<sup>2</sup></div>
+                        <div class="number">583 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2593,7 +2854,7 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Количество офисных помещений
+                        Количество офисных помещений
                         </div>
                         <div class="number">10</div>
                     </div>
@@ -2605,9 +2866,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Офис 3
+                            Офисная площадь
                         </div>
-                        <div class="number">583 м<sup>2</sup></div>
+                        <div class="number">583 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2617,9 +2878,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Площади общего пользования/Лобби
+                        Места общего пользования / Лобби
                         </div>
-                        <div class="number">52 м<sup>2</sup></div>
+                        <div class="number">52 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2629,89 +2890,20 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Крытые веранды
+                        Крытые веранды
                         </div>
-                        <div class="number">57 м<sup>2</sup></div>
+                        <div class="number">57 m<sup>2</sup></div>
                     </div>
 
                 </div>
             </div>
 
             <div class="wrapper-plan-level">
-                <a href="images/plan/6.jpg" class="plan-gallery" data-fancybox="plan-gallery">
-                    <img src="images/plan/6.jpg" alt=" "/>
+                <a href="images/plan/4.jpg" class="plan-gallery" data-fancybox="plan-gallery">
+                    <img src="images/plan/4.jpg" alt=" "/>
                     <span>Смотреть</span>
                 </a>
             </div>
-
-            <div class="modal-form-title">
-                Интерьеры
-            </div>
-
-            <div class="row row-3">
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/1.jpg" data-fancybox="interior4">
-                        <img src="images/interior/1.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/2.jpg" data-fancybox="interior4">
-                        <img src="images/interior/2.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/3.jpg" data-fancybox="interior4">
-                        <img src="images/interior/3.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/4.jpg" data-fancybox="interior4">
-                        <img src="images/interior/4.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/5.jpg" data-fancybox="interior4">
-                        <img src="images/interior/5.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/6.jpg" data-fancybox="interior4">
-                        <img src="images/interior/6.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-            </div>
-
         </div>
     </div>
 
@@ -2724,18 +2916,65 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Офисные помещения этажа 5
+            Пятый этаж - Интерьер
             </div>
 
+            <div class="row row-3">
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/5-Floor-Interior-Office-Industrial-Open-Plan.jpg" data-fancybox="interior5">
+                        <img src="images/interior/5-Floor-Interior-Office-Industrial-Open-Plan.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Business-Centre-Interior-Office-Industrial-Open-Plan.jpg" data-fancybox="interior5">
+                        <img src="images/interior/Business-Centre-Interior-Office-Industrial-Open-Plan.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Business-Centre-Office-Industrial-Open-Plan-Investment.jpg" data-fancybox="interior5">
+                        <img src="images/interior/Business-Centre-Office-Industrial-Open-Plan-Investment.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Business-Office-Open-Plan-Construction.jpg" data-fancybox="interior5">
+                        <img src="images/interior/Business-Office-Open-Plan-Construction.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                
+                
+               
+            
             <div class="row row-xs-2">
+                
                 <!-- item -->
                 <div class="col-1-4 col-xs-1-2">
-
+                
                     <div class="item-office">
                         <div class="title">
-                            Общая площадь этажа
+                        Общая площадь
                         </div>
-                        <div class="number">727 м<sup>2</sup></div>
+                        <div class="number">727 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2745,7 +2984,7 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                           Офисные помещения
+                        Офисные помещения
                         </div>
                         <div class="number">680</div>
                     </div>
@@ -2757,9 +2996,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Площади общего пользования/Лобби
+                        Места общего пользования / Лобби
                         </div>
-                        <div class="number">47 м<sup>2</sup></div>
+                        <div class="number">47 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2769,9 +3008,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Парковочные места
+                        Парковочные места
                         </div>
-                        <div class="number">To be scheduled</div>
+                        <div class="number">Запланированы</sup></div>
                     </div>
 
                 </div>
@@ -2783,73 +3022,6 @@ $image = SI_CurrentPageImage();
                     <span>Смотреть</span>
                 </a>
             </div>
-
-            <div class="modal-form-title">
-                Интерьеры
-            </div>
-
-            <div class="row row-3">
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/1.jpg" data-fancybox="interior5">
-                        <img src="images/interior/1.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/2.jpg" data-fancybox="interior5">
-                        <img src="images/interior/2.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/3.jpg" data-fancybox="interior5">
-                        <img src="images/interior/3.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/4.jpg" data-fancybox="interior5">
-                        <img src="images/interior/4.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/5.jpg" data-fancybox="interior5">
-                        <img src="images/interior/5.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/6.jpg" data-fancybox="interior5">
-                        <img src="images/interior/6.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
             </div>
 
         </div>
@@ -2864,7 +3036,72 @@ $image = SI_CurrentPageImage();
         <div class="modal-container">
 
             <div class="modal-form-title">
-                Офисные помещения этажа 6-7
+            Шестой и седьмой этаж - Интерьер
+            </div>
+
+            <div class="row row-3">
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Top-Floor-Office-Limassol-Rent-Sale.jpg" data-fancybox="interior6">
+                        <img src="images/interior/Top-Floor-Office-Limassol-Rent-Sale.jpg" />
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Top-Floor-Building-Ksenos.jpg" data-fancybox="interior6">
+                        <img src="images/interior/Top-Floor-Building-Ksenos.jpg" />
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Penthouse-Top-Floor-Limassol-View.jpg" data-fancybox="interior6">
+                        <img src="images/interior/Penthouse-Top-Floor-Limassol-View.jpg"/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Penthouse-Construction-City-Sea-View.jpg" data-fancybox="interior6">
+                        <img src="images/interior/Penthouse-Construction-City-Sea-View.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/Limassol-sale-rent-investment-office-space-industrial-style.jpg" data-fancybox="interior6">
+                        <img src="images/interior/Limassol-sale-rent-investment-office-space-industrial-style.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+
+                <!-- single item -->
+                <div class="col-1-3 col-xs-1">
+
+                    <a class="interior-item eng" href="images/interior/7-luxury-Top-Floor-Office-Limassol-View.jpg" data-fancybox="interior6">
+                        <img src="images/interior/7-luxury-Top-Floor-Office-Limassol-View.jpg" alt=" "/>
+                        <span>Смотреть</span>
+                    </a>
+
+                </div>
+                <div class="modal-form-title">
+                
             </div>
 
             <div class="row row-xs-2">
@@ -2873,9 +3110,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Общая площадь этажа
+                        Общая площадь
                         </div>
-                        <div class="number">1454 м<sup>2</sup></div>
+                        <div class="number">1454 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2885,7 +3122,7 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Офисные помещения
+                        Офисные помещения
                         </div>
                         <div class="number">680</div>
                     </div>
@@ -2897,9 +3134,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Площади общего пользования/Лобби
+                        Места общего пользования / Лобби
                         </div>
-                        <div class="number">47 м<sup>2</sup></div>
+                        <div class="number">47 m<sup>2</sup></div>
                     </div>
 
                 </div>
@@ -2909,9 +3146,9 @@ $image = SI_CurrentPageImage();
 
                     <div class="item-office">
                         <div class="title">
-                            Крытые веранды
+                        Парковочные места
                         </div>
-                        <div class="number">348 м<sup>2</sup></div>
+                        <div class="number">Запланированы</div>
                     </div>
 
                 </div>
@@ -2923,73 +3160,6 @@ $image = SI_CurrentPageImage();
                     <span>Смотреть</span>
                 </a>
             </div>
-
-            <div class="modal-form-title">
-                Интерьеры
-            </div>
-
-            <div class="row row-3">
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/1.jpg" data-fancybox="interior6">
-                        <img src="images/interior/1.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/2.jpg" data-fancybox="interior6">
-                        <img src="images/interior/2.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/3.jpg" data-fancybox="interior6">
-                        <img src="images/interior/3.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/4.jpg" data-fancybox="interior6">
-                        <img src="images/interior/4.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/5.jpg" data-fancybox="interior6">
-                        <img src="images/interior/5.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
-                <!-- single item -->
-                <div class="col-1-3 col-xs-1">
-
-                    <a class="interior-item" href="images/interior/6.jpg" data-fancybox="interior6">
-                        <img src="images/interior/6.jpg" alt=" "/>
-                        <span>Смотреть</span>
-                    </a>
-
-                </div>
-
             </div>
 
         </div>
